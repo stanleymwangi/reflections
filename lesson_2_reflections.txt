@@ -1,0 +1,17 @@
+Reflections from lesson 2 of how to use git and github course on udacity
+
+What happens when you initialise a repository? Why do you need to do it?
+
+When you initialise a repository, you are telling the git vcs that you will be tracking changes in 
+this folder. Hence, git will track the history of the files and store them in the .git folder which
+is created when you run "git init". You need to do this so that git can start tracking the file 
+history!
+
+How is the staging area different from the working directory and the repository? What value do you
+think it offers?
+
+The staging area is different because it holds potential commits instead of files like the working
+directory. It differs from the repository because these are not actual commits but more like 
+pre-commits. The advantage this offers is that I can choose which files to have in a commit so that
+the commit can reflect a logical change I have made in more than one file. Also, I can add and 
+remove files as I'd like which makes the tracking process easier!
