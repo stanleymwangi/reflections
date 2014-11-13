@@ -15,3 +15,10 @@ directory. It differs from the repository because these are not actual commits b
 pre-commits. The advantage this offers is that I can choose which files to have in a commit so that
 the commit can reflect a logical change I have made in more than one file. Also, I can add and 
 remove files as I'd like which makes the tracking process easier!
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can ensure one commit per logical change by using git status to see what files are in the 
+staging area an git diff to compare changes between the working directory and staging area. This wll
+allow me to see what has changed so that I can make sure that the amount of change corresponds to 
+one logical change for the commit I want to make.
