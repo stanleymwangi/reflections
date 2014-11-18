@@ -23,4 +23,13 @@ staging area and git diff to compare changes between the working directory and s
 allow me to see what has changed so that I can make sure that the amount of change corresponds to 
 one logical change for the commit I want to make.
 
+What are some situations when branches would be helpful in keeping your history organized? How 
+would branches help?
+
+Some situations include when I want to test out new features without impacting the progress that I 
+have made on the main code. This would be especially crucial if the project involved multiple parts 
+since I would need to be able to work on those parts and test they work before merging them into the 
+main stable code. Branches would help since different teams could work on different branches and 
+then we could then integrate the changes and therefore progress the greatness of the main master 
+branch code.
 
