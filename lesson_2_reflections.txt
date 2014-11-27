@@ -33,3 +33,9 @@ main stable code. Branches would help since different teams could work on differ
 then we could then integrate the changes and therefore progress the greatness of the main master 
 branch code.
 
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help by displaying commits and branches in an easily understandable structure. Making the 
+structure visual helps me to understand how various commits are linked, how and when new branches 
+developed and makes it easy to see what changes have occured throughout the repository.
+
