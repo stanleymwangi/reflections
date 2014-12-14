@@ -39,3 +39,7 @@ Diagrams help by displaying commits and branches in an easily understandable str
 structure visual helps me to understand how various commits are linked, how and when new branches 
 developed and makes it easy to see what changes have occured throughout the repository.
 
+Useful commands:
+
+git diff, git diff --staged, git log --graph --oneline master coins lets me view the structure of 
+branches graphically
