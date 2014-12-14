@@ -45,7 +45,7 @@ How might using version control make you more confident to make changes that cou
 
 It would make me more confident because I would know that I could revert to a working version at 
 any point in development. Hence, I could make changes freely and experiment to my hearts content
-without freaking out if something went wrong.I can take greater steps in an efficient manner.
+without freaking out if something went wrong. I can take greater steps in an efficient manner.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
