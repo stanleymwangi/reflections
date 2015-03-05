@@ -39,7 +39,25 @@ Diagrams help by displaying commits and branches in an easily understandable str
 structure visual helps me to understand how various commits are linked, how and when new branches 
 developed and makes it easy to see what changes have occured throughout the repository.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way 
+we do?
+
+The result of merging two branches is one branch which contains the commits representing changes 
+that have been made to both branches beginning from the common ancestor commit they both share. We 
+represent it in the diagram so that we can easily see how the parent feature of commits influences 
+how the merge is carried out. 
 Useful commands:
 
-git diff, git diff --staged, git log --graph --oneline master coins lets me view the structure of 
-branches graphically
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The pros of Git's automatic merging vs manually merging are that it allows efficient collaboration 
+when teams are working on different features of a codebase. These can easily be integrated together.
+Doing this manually would be laborious as the size of the codebase and the number of developers 
+increased. The cons are that automatic merging is not intelligent enough to merge conflicts when the
+same piece of code has been changed by two different people. In this instance, manual merging has 
+the advantage of contextual information which allows collaborators to choose which changes are 
+acceptable.
+
+git diff, git diff --staged
+git checkout -b new_branch_name creates and moves me to a new branch
+git log --graph --oneline branch_1 branch_2 lets me view the structure of branches graphically
