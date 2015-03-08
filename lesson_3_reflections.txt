@@ -11,3 +11,13 @@ If Git automatically updated my local copy, then it is possible that changes oth
 interfere with my work and additionally harm productivity by creating more administration in terms
 of fixing conflicts. Furthermore, constant updates would add a data transfer overhead which in most
 cases is unnecessary.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of 
+another?
+
+A clone is a copy of a remote repository that is on you local machine. This is used when I want to 
+work on code on my local machine. A fork is like a clone except that it is made via GitHub and makes
+a copy of a repository on my GitHub account. This is used when I want to work with someone else's 
+work by making a copy of it. GitHub maintains an attribution to the source of the copy. A branch is a 
+divergence of commits that is used to make changes without affecting the files in the main branch.
+This is useful when working on new features, fixing bugs and experimenting.
