@@ -58,6 +58,4 @@ same piece of code has been changed by two different people. In this instance, m
 the advantage of contextual information which allows collaborators to choose which changes are 
 acceptable.
 
-git diff, git diff --staged
-git checkout -b new_branch_name creates and moves me to a new branch
-git log --graph --oneline branch_1 branch_2 lets me view the structure of branches graphically
+
