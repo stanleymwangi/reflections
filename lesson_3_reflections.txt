@@ -21,3 +21,10 @@ a copy of a repository on my GitHub account. This is used when I want to work wi
 work by making a copy of it. GitHub maintains an attribution to the source of the copy. A branch is a 
 divergence of commits that is used to make changes without affecting the files in the main branch.
 This is useful when working on new features, fixing bugs and experimenting.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benefit is that I can continue to work on my local copy without worrying about what changes 
+others have made. Furthermore, if the remote copy was destroyed, it would be able to restore it by
+using the local copy on my machine. Finally, from a merge perspective, having the latest known state
+would result in fast forward merging when I pushed my code to the remote.
