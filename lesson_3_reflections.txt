@@ -28,3 +28,13 @@ The benefit is that I can continue to work on my local copy without worrying abo
 others have made. Furthermore, if the remote copy was destroyed, it would be able to restore it by
 using the local copy on my machine. Finally, from a merge perspective, having the latest known state
 would result in fast forward merging when I pushed my code to the remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without Git or GitHub, email, comments within files and face-to-face meetings would be the alternative
+to collaboration option. It would be harder to track all the changes that team members made and it
+would be difficult to integrate changes together without worrying about the effects of multiple 
+changes to the codebase. This would result in less flexibility since changes would have to be micro
+managed to reduce conflicts as much as possible. It would be easier to talk to an individual and ask
+them about their proposed changes but this would hardly be an improvement since this is still an
+action that should be taken e.g. during code reviews.
