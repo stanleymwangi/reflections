@@ -38,3 +38,14 @@ changes to the codebase. This would result in less flexibility since changes wou
 managed to reduce conflicts as much as possible. It would be easier to talk to an individual and ask
 them about their proposed changes but this would hardly be an improvement since this is still an
 action that should be taken e.g. during code reviews.
+
+When would you want to make changes in a separate branch rather than directly in master? What 
+benefits does each approach have?
+
+Changes would be made in a separate branch if I was working on a feature or bug fix which could have
+adverse effects if implemented directly into master. In this scenario, the advantage is that the 
+stability of the master branch is maintained with changes reviewed before they are implemented.
+
+Working directly on master is acceptable when changes you will make will not have untoward effects on
+the usability of the application especially if it is used by many other individuals. This workflow
+enables rapid changes to the codebase which is great when working on individual projects for example.
